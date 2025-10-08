@@ -1,75 +1,26 @@
-# AllBooks
+# GitHub
 
-Boas vindas a API do AllBooks!
+## ℹ️ Sobre
 
-O AllBooks é uma loja virtual que vende livros da Casa do Código. 
-É um MVP que tá só começando e ainda tem muitas funcionalidades novas para serem desenvolvidas.
+<p>Projeto utilizado no curso para aprendizado das técnicas e melhores práticas.</p>
 
-# JSONServer + JWT Auth
+## 📘Ementa
 
-Essa é ma API Rest mockada, utilizando json-server e JWT.
+### DevOps: trabalhando com repositórios no GitHub
 
-## 🛠️ Instalação
+- Conhecer os principais comandos de trabalho no GitHub
+- Aplicar conhecimentos em GitFlow e GitHub Actions
+- Aprender a lidar com commits, conflitos, issues e PRs
+- Organizar fluxos e projetos com GitHub Actions
+- Trabalhar com segurança e Dependabot
 
-```bash
-$ npm install
-$ npm run start-auth
-```
-## 🛠️ Como se registrar?
+## 🖥️ Tecnologias
 
-Você pode fazer isso efetuando uma requisição post para:
+<div>
+  <img src="https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white">  
+</div>
 
-```
-POST http://localhost:8000/public/registrar
-```
+## 🧑‍🏫 Instrutor(es)
 
-Com os seguintes dados:
-
-
-```
-{
-    "nome": "vinicios neves",
-    "email": "vinicios@alura.com.br",
-    "senha": "123456",
-    "endereco": "Rua Vergueiro, 3185",
-    "complemento": "Vila Mariana",
-    "cep": "04101-300"
-}
-```
-
-Repare que o e-mail é um campo único e usuários com e-mails duplicados não serão persistidos.
-
-## 🛠️ Como fazer login?
-
-Você pode fazer isso efetuando uma requisição post para:
-
-```
-POST http://localhost:8000/public/login
-```
-
-Com os seguintes dados:
-
-
-```
-{
-  "email": "vinicios@alura.com.br",
-  "senha":"123456"
-}
-```
-
-Você vai receber um token no seguinte formato:
-
-```
-{
-   "access_token": "<ACCESS_TOKEN>",
-   "user": { ... dados do usuário ... }
-}
-```
-
-## Autenticar próximas requests?
-
-E então, adicionar este mesmo token ao header das próximas requisições:
-
-```
-Authorization: Bearer <ACCESS_TOKEN>
-```
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/33001620?v=4" width=115><br><sub>Gabrielle Ribeiro</sub>](https://github.com/gabrielle-ribeiro) |
+| :-------------------------------------------------------------------------------------------------------------------------------------------------------: |
